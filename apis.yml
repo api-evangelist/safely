@@ -1,7 +1,29 @@
 aid: safely
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safely.png
 name: Safely
-description: Safely is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Safely (SafelyStay, Inc.) is an InsurTech company providing short-term rental
+  insurance, guest screening, and travel insurance for vacation rental property
+  managers and their guests. The Safely Protection Policy offers up to $1,000,000
+  in short-term rental insurance covering guest-caused accidental and intentional
+  damage, theft, pet damage, and bodily injury liability, while its guest
+  screening verifies guests before check-in. Safely connects to property
+  management systems through turnkey partner integrations (Guesty, Hostaway,
+  Hostfully, OwnerRez, Track, Streamline, Escapia, Lodgify, and more) rather than
+  a public developer API. A Techstars-backed company added to the API Evangelist
+  network; this profile was enriched by the pipeline, which found no public API
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/safely/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Short-Term Rental
+- Vacation Rental
+- Guest Screening
+- Travel Insurance
+- Property Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://safely.com/
+- type: About
+  url: https://safely.com/about/
+- type: Support
+  url: https://hello.safely.com/
+- type: Blog
+  url: https://safely.com/resources/
+- type: Integrations
+  url: https://safely.com/resources/integrations/
+- type: SignUp
+  url: https://safely.com/quote/
+- type: Login
+  url: https://portal.safelystay.com/
+- type: TermsOfService
+  url: https://safely.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://safely.com/privacy-policy/
+- type: DomainSecurity
+  url: security/safely-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
